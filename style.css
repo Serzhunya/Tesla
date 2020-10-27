@@ -278,7 +278,6 @@ header {
     color: #FFFFFF;
     padding-left: 4%;
     padding-top: 3px;
-
 }
 
 .order_info {
@@ -731,9 +730,9 @@ header {
     }
 
     .first_page {
-        background:url(img1/Tesla_bg.svg)no-repeat; 
+        background: url(img1/Tesla_bg.svg)no-repeat; 
         background-position: -20px 110px;  
-        background-size:115%
+        background-size: 115%
     }
 
     .properties {
@@ -746,12 +745,12 @@ header {
     }
 
     .speed {
-        background:url(img1/speed_3.svg) no-repeat;;
+        background: url(img1/speed_3.svg) no-repeat;;
         width: 127px;
         height: 53px;
         margin-right: 41px;
         padding-left: 15%;
-        background-position:0 7px;
+        background-position: 0 7px;
     }
 
     .test_drive {

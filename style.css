@@ -190,7 +190,7 @@ header {
     position: relative;
 }
 
-.test-drive__text{
+.test-drive__text {
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -201,7 +201,7 @@ header {
     margin-left: 30px;
 }
 
-.test-drive__img{
+.test-drive__img {
     background:url(img1/test-drive_1.svg) no-repeat;
     width: 22px;
     height: 22px;

@@ -12,14 +12,14 @@ body{
 .logo {
     width: 166px;
     height: 51px;
-    margin-right: 220px;
+    margin-right: 227px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
-    padding-left: 30px;
+    padding-left: 43px;
 }
 
 .menu {
@@ -54,11 +54,11 @@ header {
 }
 
 .menu__item:nth-child(2) {
-    margin-right: 24px;
+    margin-right: 25px;
 }
 
 .menu__item:nth-child(3) {
-    margin-right: 44px;
+    margin-right: 45px;
 }
 
 .menu__item:nth-child(4) {
@@ -99,30 +99,30 @@ header {
 
 .first-page {
     background:url(img1/Tesla_bg.svg)no-repeat; 
-    background-position: -10px 50px;  
-    background-size: 102%;
+    background-position: 0 58px;  
+    background-size: 100%;
 }
 
 .car {
-    width: 68%;
-    display: block;
-    margin: 0 auto;
+    width: 67%;
+    margin-left: 200px;
 }
 
 .properties {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 18px;
+    padding-top: 23px;
+    padding-bottom: 17px;
     align-items: baseline;
-    justify-content: center;
+    justify-content: center
 }
 
 .speed {
     padding-bottom: 10px;
-    margin-right: 82px;
     width: 154px;
     height: 56px;
     position: relative;
+    margin-left: 0;
+    margin-right: 70px;
 }
 
 .speed__img{
@@ -131,7 +131,7 @@ header {
     width: 46px;
     height: 44px;
     position: absolute;
-    top:10px;
+    top:11px;
 }
 
 .num {
@@ -167,6 +167,9 @@ header {
     line-height: 15px;
     color: #000;
     margin-left: 60px;
+    position: absolute;
+    top:42px;
+    left:0;
 }
 
 .road {
@@ -181,12 +184,13 @@ header {
     height: 58px;
     display: inline-block;
     position: absolute;
-    top:5px;
+    top:7px;
+    left:3px;
 }
 
 .test-drive {
-    margin-right: 2%; 
-    padding-top: 3px;
+    margin-right: 40px; 
+    padding-top: 10px;
     position: relative;
 }
 
@@ -207,8 +211,8 @@ header {
     height: 22px;
     display: inline-block;
     position: absolute;
-    top:0px;
-    left: 0px;
+    top:7px;
+    left: 2px;
 }
 
 .first-page__order {
@@ -221,7 +225,7 @@ header {
     color: #E51937;
     text-decoration: none;
     border: 2px solid #E51937;
-    padding: 9px 41px;
+    padding: 11px 41px;
     margin-bottom: 25px;
     transition: .7s background;
 }
@@ -258,12 +262,12 @@ header {
     font-size: 70px;
     line-height: 85px;
     color: #E51937;
-    padding-left: 67px;
+    padding-left: 80px;
     padding-top: 83px;
 }
 
 .second-page__article {
-    right: 0px;
+    right: 0;
     top: 15px;
     position: absolute;
     width: 440px;
@@ -304,7 +308,7 @@ header {
 }
 
 .icon {
-    margin-bottom: 28px;
+    margin-bottom: 35px;
     margin-left: 52px;
 }
 
@@ -313,6 +317,7 @@ header {
     margin-left: 48px;
     width: 269px;
     height: 71px;
+    margin-bottom: 25px;
 }
 
 .icon:last-child {
@@ -325,7 +330,7 @@ header {
 .info {
     display: flex;
     justify-content: right;
-    padding-left: 52px;
+    padding-left: 50px;
     align-items: baseline;
 }
 
@@ -371,7 +376,7 @@ header {
 
 .third-page__background{
     background: url(img3/Model\ S.svg)no-repeat;
-    background-position: 635px 147px;
+    background-position: 647px 142px;
     height: 900px;
 }
 
@@ -380,8 +385,8 @@ header {
     width: 1049px;
     height: 600px;
     position: absolute;
-    left: 335px;
-    top: 175px;
+    left: 345px;
+    top: 171px;
     z-index: 1;
 }
 
@@ -389,7 +394,7 @@ header {
     width: 440px;
     height: 900px;
     background: #E51937;
-    padding-top: 55px;
+    padding-top: 51px;
     position: absolute;
     left: 0;
     top: 0;
@@ -401,11 +406,11 @@ header {
     font-size: 30px;
     line-height: 37px;
     color: #FFF;
-    padding-left: 43px;
+    padding-left: 56px;
 }
 
 .third-page__article_paragraph {
-    padding: 12px 55px 57px 43px;
+    padding: 12px 68px 57px 56px;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -414,8 +419,12 @@ header {
 }
 
 .protection {
-    padding-bottom: 10px;
-    display: inline-block;
+    display: flex;
+    margin-bottom: 9.5px;
+}
+
+.protection__img1{
+    margin-top: 26px;
 }
 
 .protection p {
@@ -425,12 +434,8 @@ header {
     line-height: 21px;
     text-transform: uppercase;
     color: #FFF;
-    padding-left: 43px;
-    display: inline-block;
-}
-
-.protection__img {
-    display: inline-block;
+    padding-left: 56px; 
+    margin-bottom: 6px;
 }
 
 .side_rack{
@@ -439,12 +444,9 @@ header {
     line-height: 12px;
 }
 
-.protection1 {
-    padding-top: 20px;
-}
-
 .protection1 p {
     margin-right: 61px;
+    margin-top: 29px;
 }
 
 .protection2 p {
@@ -461,7 +463,7 @@ header {
 
 .protection5 p {
     margin-right: 42px;
-    margin-bottom: 93px;
+    margin-bottom: 102px;
 }
 
 .safety {
@@ -469,8 +471,8 @@ header {
     color: #FFF;
     font-style: normal;
     font-weight: 600;
-    margin-left: 53px;
-    margin-bottom: 52px;
+    margin-left: 66px;
+    margin-bottom: 56px;
 }
 
 .safety__text {
@@ -490,7 +492,7 @@ header {
 }
 
 .third-page__info {
-    padding-left: 25px;
+    padding-left: 38px;
 }
 
 @media (max-width:1420px) {
@@ -630,7 +632,7 @@ header {
     }
 
     header {
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .speed {
@@ -683,7 +685,8 @@ header {
     }
 
     .car {
-        width: 91%;
+        width: 92%;
+        margin-left: 35px;
     }
 
     .first-page__headerline {
@@ -699,7 +702,7 @@ header {
         flex-wrap: wrap;
         align-items: baseline;
         padding-left: 140px;
-        padding-top: 42px;
+        padding-top: 35px;
         padding-bottom: 18px;
         justify-content: initial;
     } 
@@ -732,7 +735,7 @@ header {
         line-height: 20px;
         color: #E51937;
         margin-left: 50px;
-        margin-top: 2px;
+        margin-top: 5px;
     }
 
     .test-drive__img{
@@ -774,18 +777,17 @@ header {
 
     .road .measure {
         top: 22px;
-        right:15px;
+        right:10px;
     }
 
     .characteristics{
-        position: absolute;
         top: 58px;
-        right:15px;
+        left:27px;
     }
 
     .road .characteristics {
         top: 58px;
-        right: 75px;
+        left: 10px;
     }
 
     .first-page__order {
@@ -825,7 +827,7 @@ header {
         height: 487px;
         position: static;
         width: 100%;
-        padding-top: 60px;
+        padding-top: 55px;
     }
 
     .second-page__article_wrap {
@@ -834,7 +836,7 @@ header {
     }
 
     .second-page__article_paragraph {
-        padding-top: 20px;
+        padding-top: 23px;
         padding-right: 0;
         padding-bottom: 60px;
         width: 360px;
@@ -847,7 +849,7 @@ header {
 
     .icon {
        margin-left: 95px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .icon:nth-child(2) {
@@ -855,7 +857,7 @@ header {
     }
 
     .icon:last-child {
-        margin-bottom: 58px;
+        margin-bottom: 75px;
     }
 
     .learning-more {
@@ -906,7 +908,7 @@ header {
     }
 
     .second-page__article_headerline{
-        padding-left: 34px;
+        padding-left: 35px;
     }
 
     .third-page__background{
@@ -927,36 +929,43 @@ header {
 
     .third-page__article_wrap {
         display: flex;
-        justify-content: space-around;
     }
 
     .third-page__article_paragraph {
-        width: 320px;
-        padding: 12px 0 57px 0px;
+        width: 326px;
+        padding: 12px 0 57px 1px;
     }
 
     .protection_assessment {
-        padding-left: 70px;
+        padding-left: 65px;
     }
 
     .protection {
-        padding-bottom: 9px;
+        margin-bottom: 10px;
+        display: inline-block;
     }
 
-    .protection1 {
-        padding-top: 22px;
+    .protection p{
+        margin-bottom: 0;
+        padding-left: 0;
+        display: inline-block;
     }
 
-    .protection5 .protection__img{
-        padding-bottom: 65px;
+    .protection__img1{
+        padding-top: 0;
     }
 
-    .protection p {
-        padding-left: 0px;
+    .protection__img{
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .protection1 p{
+        padding-top: 0;
     }
     
-    .protection5 p {
-        margin-bottom: 0px;
+    .protection__img5{
+        margin-bottom: 57px;
     }
 
     .safety{
@@ -1129,7 +1138,7 @@ header {
     }
     
     .test-drive {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .icon:nth-child(1) {
@@ -1158,6 +1167,11 @@ header {
         top:200px;
         left: 27px;
     } 
+
+    .protection__img5{
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width:550px){
@@ -1211,6 +1225,7 @@ header {
     .icon:nth-child(2) {
         background-size: 70%;
         margin-left: 8px;
+        margin-bottom: 0;
     }
     
     .icon:last-child {
@@ -1224,6 +1239,10 @@ header {
     .third-page__img {
         background-size:60%;
     } 
+
+    .protection__img5{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:500px){
@@ -1293,11 +1312,15 @@ header {
         flex-direction: row;
         align-items:baseline;
         justify-content: center;
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .protection1 {
-        padding-top: 8px;
+        padding-top: 0;
+    }
+
+    .protection{
+        margin-bottom: 5px;
     }
 
     .order {
@@ -1312,8 +1335,8 @@ header {
         padding-top:13px;
     }
 
-    .protection5 .protection__img{
-        padding-bottom: 15px;
+    .protection__img5{
+        margin-bottom: 0;
     }
 
     .third-page__img{
@@ -1435,7 +1458,7 @@ header {
         width: 115px;
         height: 53px;
         margin-right: 0;
-        margin-left: 0px;
+        margin-left: 0;
         margin-bottom: 33px;
     }
 
@@ -1450,7 +1473,7 @@ header {
     .num {
         font-size: 27px;
         line-height: 33px;
-        margin-right: 0px;
+        margin-right: 0;
         margin-left: 50px;
     }
 
@@ -1468,7 +1491,7 @@ header {
 
     .road .measure {
         top: 10px;
-        right:0px;
+        right:0;
     }
 
     .test-drive{
@@ -1488,7 +1511,7 @@ header {
     .road .characteristics {
         top: 32px;
         left: 35px;
-        right:0px;
+        right:0;
         margin-left:0;
     }
 
@@ -1576,13 +1599,13 @@ header {
         text-align: left;
         font-size: 30px;
         line-height: 37px;
-        padding-left:0px ;
+        padding-left:0;
         padding-right:2px;
     }
 
     .third-page__article_paragraph {
         padding-top: 11px;
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .safety {

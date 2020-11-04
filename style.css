@@ -15,6 +15,12 @@ body{
     margin-right: 227px;
 }
 
+.container{
+    max-width: 1710px;
+    margin: 0 auto;
+    display: block;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -1371,7 +1377,7 @@ header {
 
 @media (max-width:375px) {
     header {
-        padding-right: 21px;
+        padding-right: 20px;
         padding-left: 0;
         padding-top: 5px;
     }
@@ -1389,7 +1395,6 @@ header {
         margin-top:14px;
         background: url(img1/menu.svg)no-repeat;
         margin-right: 0;
-        
     }
 
     .first-page h2 {
@@ -1402,10 +1407,13 @@ header {
         width: 138px;
         height: 42px;
         margin-right: 0;
+        margin-left: -3px;
     }
 
     .car {
-        width: 95%;
+        width: 96%;
+        margin: 0 auto;
+        display: block;
     }
 
     .first-page {
@@ -1421,15 +1429,15 @@ header {
         align-items: baseline;
         justify-content: inherit;
         flex-direction: row;
-        padding-top: 30px;
-        padding-bottom: 34px;
+        padding-top: 25px;
+        padding-bottom:31px;
     }
 
     .speed {
         width: 135px;
         height: 53px;
         margin-right: 36px;
-        margin-left: 42px;
+        margin-left: 37px;
     }
 
     .speed__img{
@@ -1450,7 +1458,7 @@ header {
         background:url(img1/test-drive_3.svg) no-repeat;
         width: 22px;
         height: 22px;
-        top:5px;
+        top:10px;
     }
 
     .road {
@@ -1459,7 +1467,7 @@ header {
         height: 53px;
         margin-right: 0;
         margin-left: 0;
-        margin-bottom: 33px;
+        margin-bottom: 35px;
     }
 
     .road__img{
@@ -1474,7 +1482,7 @@ header {
         font-size: 27px;
         line-height: 33px;
         margin-right: 0;
-        margin-left: 50px;
+        margin-left: 53px;
     }
 
     .road .num{
@@ -1483,19 +1491,19 @@ header {
 
     .measure {
         position: absolute;
-        top: 10px;
-        right:2px;
+        top: 12px;
+        right:8px;
         font-size: 15px;
         line-height: 18px;
     }
 
     .road .measure {
-        top: 10px;
-        right:0;
+        top: 12px;
+        right:3px;
     }
 
     .test-drive{
-        margin-left: 35px;
+        margin-left: 30px;
         margin-right: 25px;
         margin-bottom: 0;
     }
@@ -1503,14 +1511,14 @@ header {
     .characteristics {
         font-size: 10px;
         line-height: 12px;
-        top:32px;
-        left:55px;
+        top:33px;
+        left:52px;
         margin-left:0;
     }
 
     .road .characteristics {
-        top: 32px;
-        left: 35px;
+        top: 33px;
+        left: 34px;
         right:0;
         margin-left:0;
     }
@@ -1518,7 +1526,7 @@ header {
     .first-page__order {
         color: #FFF;
         background:#E51937;
-        padding: 10px 40px;
+        padding: 10px 41px;
         font-size: 13px;
         line-height: 16px;
         margin-bottom: 0;
@@ -1547,22 +1555,21 @@ header {
         height: 304px;
         position: static;
         width: 100%;
-        padding-top: 25px;
+        padding-top: 31px;
     }
 
     .second-page__article_headerline {
-        padding-left: 20px;
+        padding-left: 22px;
         font-weight: 600;
         font-size: 30px;
     }
 
     .second-page__article_paragraph {
         padding-top: 20px;
-        padding-left: 27px;
         font-size: 15px;
         line-height: 18px;
-        width: 325px;
-        padding-left: 20px;
+        width: 350px;
+        padding-left: 23px;
     }
 
     .article_icons{
@@ -1575,14 +1582,18 @@ header {
 
     .third-page__background {
         height: 46%;
-        background-position: 7px 18px;
-        background-size: 100%;
+        background-position: -4px 15px;
+        background-size: 107%;
     }
 
     .third-page__img {
         background: url(img3/car_third_page_mobile.png)no-repeat;
-        top: 27px;
+        top: 26px;
         left: -5px;
+        width: 355px;
+        height: 200px;
+        background-size:102%;
+
     }
 
     .protection_assessment {
@@ -1591,7 +1602,7 @@ header {
 
     .third-page__article {
         height: 54%;
-        padding-top: 18px;
+        padding-top: 19px;
         padding-left: 27px;
     }
 

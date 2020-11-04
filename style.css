@@ -426,50 +426,41 @@ header {
 
 .protection {
     display: flex;
-    margin-bottom: 9.5px;
+    margin-bottom: 96px;
+    padding-left: 56px;
 }
 
-.protection__img1{
-    margin-top: 26px;
-}
-
-.protection p {
+.protection__text p {
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
     text-transform: uppercase;
     color: #FFF;
-    padding-left: 56px; 
-    margin-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+.stars{
+    margin-bottom: 10px;
+}
+
+.stars img{
+    margin-right: -1px;
+}
+
+.protection__text{
+    margin-top: 29px;
+}
+
+.protection__stars{
+    margin-top: 26px;
+    margin-left: 31px;
 }
 
 .side_rack{
     opacity: .7;
     font-size: 10px;
     line-height: 12px;
-}
-
-.protection1 p {
-    margin-right: 61px;
-    margin-top: 29px;
-}
-
-.protection2 p {
-    margin-right: 87px;
-}
-
-.protection3 p {
-    margin-right: 31px;
-}
-
-.protection4 p {
-    margin-right: 48px;
-}
-
-.protection5 p {
-    margin-right: 42px;
-    margin-bottom: 102px;
 }
 
 .safety {
@@ -943,35 +934,43 @@ header {
     }
 
     .protection_assessment {
-        padding-left: 65px;
+        margin-right:51px;
     }
 
     .protection {
-        margin-bottom: 10px;
-        display: inline-block;
+        padding-left: 0px;
+        margin-bottom: 55px;
     }
 
-    .protection p{
-        margin-bottom: 0;
-        padding-left: 0;
-        display: inline-block;
+    .protection__text{
+        margin-right: 0px;
     }
 
-    .protection__img1{
-        padding-top: 0;
+    .protection__stars{
+        margin-left:45px;
     }
 
-    .protection__img{
-        display: inline-block;
-        margin-top: 0;
+    .protection__text p{
+        margin-bottom: 16px;
     }
 
-    .protection1 p{
-        padding-top: 0;
+   .protection__text p:nth-child(3){
+       position: relative;
     }
-    
-    .protection__img5{
-        margin-bottom: 57px;
+
+    .side_rack{ 
+        position: absolute;
+        top:7px;
+        right: -12px;
+    }
+
+    .stars{
+        display: flex;
+        margin-bottom: 14px;
+    }
+
+    .stars img{
+        margin-right: 3px;
     }
 
     .safety{
@@ -1049,29 +1048,19 @@ header {
         line-height: 30px;
     }
 
+    .side_rack{ 
+        position: absolute;
+        top:5px;
+        right: -15px;
+    }
+
     .protection p {
         font-size: 15px;
         line-height: 17px;
     }
 
-    .protection1 p {
-        margin-right: 41px;
-    }
-    
-    .protection2 p {
-        margin-right: 63px;
-    }
-    
-    .protection3 p {
-        margin-right: 7px;
-    }
-    
-    .protection4 p {
-        margin-right: 29px;
-    }
-    
-    .protection5 p {
-        margin-right: 24px;
+    .stars{
+        margin-bottom: 10px;
     }
 
     .third-page__img {
@@ -1131,7 +1120,6 @@ header {
     .third-page__img {
         background-size:75%;
     } 
-
 }
 
 @media (max-width:600px){
@@ -1160,10 +1148,6 @@ header {
         background-size: 80%;
     }
 
-    .protection5 .protection__img{
-        padding-bottom: 30px;
-    }
-
     .third-page__info{
         padding-left: 40px;
     }
@@ -1174,10 +1158,32 @@ header {
         left: 27px;
     } 
 
-    .protection__img5{
-        margin-bottom: 20px;
+    .protection_assessment {
+        padding-left: 0;
     }
 
+    .third-page__article_headerline {
+        padding-left: 0;
+        padding-right: 30px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .third-page__article_paragraph { 
+        padding-left: 0px;
+        width: 100%;  
+        padding-right: 20px;
+        padding-bottom:10px;
+    }
+
+    .third-page__article_wrap {
+        display: inherit;
+    }
+
+    .protection{
+        margin-bottom: 25px;
+        margin-left:0;
+    }
 }
 
 @media (max-width:550px){
@@ -1209,12 +1215,6 @@ header {
         line-height: 30px;
     }
 
-    .second-page__article_paragraph {
-        width: 310px;
-        padding-bottom: 50px;
-        font-size: 13px;
-        line-height: 16px;
-    }
     .info {
         padding-left: 32px;
     }
@@ -1245,10 +1245,6 @@ header {
     .third-page__img {
         background-size:60%;
     } 
-
-    .protection__img5{
-        margin-bottom: 10px;
-    }
 }
 
 @media (max-width:500px){
@@ -1295,38 +1291,11 @@ header {
         line-height: 13px;
     }
 
-    .third-page__article_headerline {
-        text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 20px;
-        line-height: 20px;
-    }
-
-    .third-page__article_paragraph { 
-        padding-left: 20px;
-        width: 100%;  
-        padding-right: 20px;
-        padding-bottom:10px;
-    }
-
-    .third-page__article_wrap {
-        display: inherit;
-    }
-
     .third-page__info {
         flex-direction: row;
         align-items:baseline;
         justify-content: center;
         padding-left: 0;
-    }
-
-    .protection1 {
-        padding-top: 0;
-    }
-
-    .protection{
-        margin-bottom: 5px;
     }
 
     .order {
@@ -1339,10 +1308,6 @@ header {
         font-size: 13px;
         line-height: 6px;
         padding-top:13px;
-    }
-
-    .protection__img5{
-        margin-bottom: 0;
     }
 
     .third-page__img{
@@ -1394,7 +1359,7 @@ header {
         height: 15px;
         margin-top:14px;
         background: url(img1/menu.svg)no-repeat;
-        margin-right: 0;
+        margin-right: -8px;
     }
 
     .first-page h2 {
@@ -1407,19 +1372,19 @@ header {
         width: 138px;
         height: 42px;
         margin-right: 0;
-        margin-left: -3px;
+        margin-left: -10px;
     }
 
     .car {
-        width: 96%;
+        width: 100%;
         margin: 0 auto;
         display: block;
     }
 
     .first-page {
         background: url(img1/Tesla_bg.svg)no-repeat; 
-        background-position: -20px 110px;  
-        background-size: 115%
+        background-position: -30px 110px;  
+        background-size: 120%
     }
 
     .properties {
@@ -1429,7 +1394,7 @@ header {
         align-items: baseline;
         justify-content: inherit;
         flex-direction: row;
-        padding-top: 25px;
+        padding-top: 30px;
         padding-bottom:31px;
     }
 
@@ -1437,7 +1402,7 @@ header {
         width: 135px;
         height: 53px;
         margin-right: 36px;
-        margin-left: 37px;
+        margin-left: 30px;
     }
 
     .speed__img{
@@ -1451,14 +1416,14 @@ header {
         font-size: 13px;
         line-height: 16px;
         color: #E51937;
-        margin-left: 30px;
+        margin-left: 31px;
     }
 
     .test-drive__img{
         background:url(img1/test-drive_3.svg) no-repeat;
         width: 22px;
         height: 22px;
-        top:10px;
+        top:9px;
     }
 
     .road {
@@ -1503,7 +1468,7 @@ header {
     }
 
     .test-drive{
-        margin-left: 30px;
+        margin-left: 21px;
         margin-right: 25px;
         margin-bottom: 0;
     }
@@ -1555,21 +1520,21 @@ header {
         height: 304px;
         position: static;
         width: 100%;
-        padding-top: 31px;
+        padding-top: 27px;
     }
 
     .second-page__article_headerline {
-        padding-left: 22px;
+        padding-left: 15px;
         font-weight: 600;
         font-size: 30px;
     }
 
     .second-page__article_paragraph {
-        padding-top: 20px;
+        padding-top: 22px;
         font-size: 15px;
         line-height: 18px;
-        width: 350px;
-        padding-left: 23px;
+        width: 351px;
+        padding-left: 15px;
     }
 
     .article_icons{
@@ -1588,12 +1553,11 @@ header {
 
     .third-page__img {
         background: url(img3/car_third_page_mobile.png)no-repeat;
-        top: 26px;
-        left: -5px;
+        top: 23px;
+        left:-13px;
         width: 355px;
         height: 200px;
         background-size:102%;
-
     }
 
     .protection_assessment {
@@ -1603,7 +1567,7 @@ header {
     .third-page__article {
         height: 54%;
         padding-top: 19px;
-        padding-left: 27px;
+        padding-left: 20px;
     }
 
     .third-page__article_headerline {

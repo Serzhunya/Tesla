@@ -1383,9 +1383,9 @@ header {
 
 @media (max-width:375px) {
     header {
-        padding-right: 20px;
-        padding-left: 0;
-        padding-top: 5px;
+        padding-right: 21px;
+        padding-left: 11px;
+        padding-top: 4px;
     }
 
     .first-page__headerline { 
@@ -1400,7 +1400,7 @@ header {
         height: 15px;
         margin-top:14px;
         background: url(img/menu.svg)no-repeat;
-        margin-right: -8px;
+        margin-right: 0;
     }
 
     .first-page h2 {
@@ -1417,15 +1417,15 @@ header {
     }
 
     .car {
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
         display: block;
     }
 
     .first-page {
         background: url(img/Tesla_bg.svg)no-repeat; 
-        background-position: -30px 110px;  
-        background-size: 120%
+        background-position: -20px 108px;  
+        background-size: 115%
     }
 
     .properties {
@@ -1435,7 +1435,7 @@ header {
         align-items: baseline;
         justify-content: inherit;
         flex-direction: row;
-        padding-top: 30px;
+        padding-top: 26px;
         padding-bottom:31px;
     }
 
@@ -1443,7 +1443,7 @@ header {
         width: 135px;
         height: 53px;
         margin-right: 36px;
-        margin-left: 30px;
+        margin-left: 42px;
     }
 
     .speed__img{
@@ -1509,7 +1509,7 @@ header {
     }
 
     .test-drive{
-        margin-left: 21px;
+        margin-left: 35px;
         margin-right: 25px;
         margin-bottom: 0;
     }
@@ -1550,7 +1550,7 @@ header {
     .second-page__background {
         background: url(img/background_3.png) no-repeat;
         height: 305px;
-        background-position: -11px -20px;
+        background-position: 0 -20px;
     }
 
     .second-page__headerline {
@@ -1561,11 +1561,11 @@ header {
         height: 304px;
         position: static;
         width: 100%;
-        padding-top: 27px;
+        padding-top: 30px;
     }
 
     .second-page__article_headerline {
-        padding-left: 15px;
+        padding-left: 27px;
         font-weight: 600;
         font-size: 30px;
     }
@@ -1575,7 +1575,7 @@ header {
         font-size: 15px;
         line-height: 18px;
         width: 351px;
-        padding-left: 15px;
+        padding-left: 27px;
     }
 
     .article_icons{
@@ -1588,14 +1588,14 @@ header {
 
     .third-page__background {
         height: 46%;
-        background-position: -4px 15px;
+        background-position: 1px 15px;
         background-size: 107%;
     }
 
     .third-page__img {
         background: url(img/car_third_page_mobile.png)no-repeat right;
         bottom: 35px;
-        right: 2px;
+        right: 15px;
         width: 355px;
         height: 200px;
     }
@@ -1607,7 +1607,7 @@ header {
     .third-page__article {
         height: 54%;
         padding-top: 19px;
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
     .third-page__article_headerline {
